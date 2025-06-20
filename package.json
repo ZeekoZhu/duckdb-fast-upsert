@@ -1,0 +1,4 @@
+{
+  "name": "duckdb-fast-upsert",
+  "packageManager": "yarn@4.9.2"
+}
