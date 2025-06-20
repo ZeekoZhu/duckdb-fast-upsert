@@ -4,7 +4,8 @@
   "packageManager": "yarn@4.9.2",
   "scripts": {
     "postinstall": "tsx ./src/prepare-db.ts",
-    "start": "tsx src/index.ts"
+    "start": "tsx src/index.ts",
+    "raw-sql": "tsx src/raw-sql.ts"
   },
   "dependencies": {
     "@duckdb/node-api": "^1.3.1-alpha.22",
